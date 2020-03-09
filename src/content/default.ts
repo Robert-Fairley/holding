@@ -1,4 +1,4 @@
-export default `
+export const DEFAULT_PAGE = `
 <!DOCTYPE html>
 <html>
     <head>

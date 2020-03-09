@@ -1,4 +1,4 @@
-export const PROMT: string = "[ SERVER ] >>";
+export const PROMPT: string = "[ SERVER ] >>";
 
 export const PORT: number = 9999;
 

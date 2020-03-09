@@ -4,7 +4,7 @@
   "description": "Basic holding page & web server",
   "main": "index.js",
   "scripts": {
-    "build": "tsc src/**/*.ts",
+    "build": "tsc",
     "clean": "rm -rf ./lib",
     "start": "npm run build && node ./lib"
   },
