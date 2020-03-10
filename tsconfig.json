@@ -62,5 +62,14 @@
 
     /* Advanced Options */
     "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
-  }
+  },
+  "exclude": [
+    "public",
+    "lib",
+    "node_modules",
+    ".vscode"
+  ],
+  "include": [
+    "src"
+  ]
 }

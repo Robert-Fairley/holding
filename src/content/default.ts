@@ -4,20 +4,23 @@ export const DEFAULT_PAGE = `
     <head>
         <meta charset="utf-8" />
         <title>Coming Soon</title>
+        <link rel="stylesheet" href="/style.css" />
     </head>
     
     <body>
         <main>
-            <h1>Coming Soon</h1>
-            <p>
-                This domain is in use and the content is <em>en route</em>.
-            </p>
+            <h1 class="blue light">Coming Soon</h1>
+            <section class="content">
+                <p>
+                    This domain is in use and the content is <em>en route</em>.
+                </p>
+            </section>
+            <hr/>
+            <section class="date">
+                <date></date>
+            </section>
         </main>
-        <script>
-            document.onload = _ => {
-                console.log("Page loaded");
-            };
-        </script>
+        <script src="/holding.js"></script>
     </body>
 </html>
 `;
